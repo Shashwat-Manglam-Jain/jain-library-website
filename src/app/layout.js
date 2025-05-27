@@ -85,6 +85,8 @@ export default function RootLayout({ children }) {
     <link rel="icon" href="/favicon.png" type="image/png" />
         <title>Keval Gyan</title>
         <meta name="google-site-verification" content="lb4n0IcUI4sEhqD8BI09ExO_nWJlq78K-0gHREpY2ZQ" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2112648393243814"
+     crossorigin="anonymous"></script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
