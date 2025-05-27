@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://kevalgyan.vercel.app
+
+# Sitemaps
+Sitemap: https://kevalgyan.vercel.app/sitemap.xml
