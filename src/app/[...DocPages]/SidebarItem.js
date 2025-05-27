@@ -369,7 +369,7 @@ const mainPage=pathname==='/'
     }
   />
   <meta property="og:image" content={selected?.image || '/KshatriyakundMahavirSwami.jpeg'} />
-  <meta property="og:url" content={`https://your-domain.com/${selected?.slug || ''}`} />
+  <meta property="og:url" content={`https://kevalgyan.vercel.app/${selected?.slug || ''}`} />
   <meta property="og:type" content="website" />
 
   {/* Twitter Card */}

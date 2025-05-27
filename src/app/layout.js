@@ -44,7 +44,7 @@ export const metadata = {
     title: 'Jain Books & Teachings | जैन धर्म ग्रंथ और शिक्षाएँ',
     description:
       'Your portal for Jain stotras, scriptures, and teachings. Explore Bhaktamar, Samadhi Bhavna, Barah Bhavna and more in Hindi and English.',
-    url: 'https://yourdomain.com/books',
+    url: 'https://kevalgyan.vercel.app/',
     siteName: 'Keval Gyan',
     images: [
       {
@@ -64,13 +64,13 @@ export const metadata = {
     images: ['/favicon.png'],
   },
   alternates: {
-    canonical: 'https://yourdomain.com/books',
+    canonical: 'https://kevalgyan.vercel.app/',
   },
   robots: {
     index: true,
     follow: true,
   },
-  authors: [{ name: 'Keval Gyan', url: 'hashwatmanglamjain.netlify.app' }],
+  authors: [{ name: 'Keval Gyan', url: 'shashwatmanglamjain.netlify.app' }],
   creator: 'Keval Gyan',
   publisher: 'Keval Gyan',
   themeColor: '#1f2937', // Tailwind gray-800
@@ -84,6 +84,7 @@ export default function RootLayout({ children }) {
      <head>
     <link rel="icon" href="/favicon.png" type="image/png" />
         <title>Keval Gyan</title>
+        <meta name="google-site-verification" content="lb4n0IcUI4sEhqD8BI09ExO_nWJlq78K-0gHREpY2ZQ" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
